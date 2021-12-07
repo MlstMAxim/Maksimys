@@ -1,0 +1,71 @@
+@media (max-width: 900px) {
+    .tab-navigation {
+        flex-direction: column !important;
+    }
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    background: rgb(107,45,92);
+    background: linear-gradient(90deg, rgba(107,45,92,1) 0%, rgba(240,56,107,1) 100%);
+    top: 0;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px 0 8px;
+}
+
+.nav-title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.nav-title-text {
+    color: white;
+    padding-bottom: 4px;
+}
+
+.nav-title-search-input {
+    border: none;
+    padding: 6px;
+    width: 300px;
+}
+.nav-title-search-input:focus {
+    outline: none;
+}
+
+.tab-navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+.tab-navigation button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.tab-navigation button i {
+    padding-right: 8px;
+}
