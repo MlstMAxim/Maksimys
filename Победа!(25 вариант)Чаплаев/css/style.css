@@ -138,7 +138,7 @@ textarea {
 	padding:43px 0 40px 0;
 }
 #main .shell {
-	width:952px;
+	width:972px;
 	padding-left:28px;
 }
 .col {
@@ -154,24 +154,24 @@ textarea {
 #main-content {
 	float:left;
 	display:inline;
-	width:607px;
+	width:400px;
 	margin-right:28px;
 }
 #sidebar {
 	float:left;
 	display:inline;
-	width:290px;
+	width:400px;
 }
 .post {
 }
 .post h3 {
 	color:#000;
-	font-size:22px;
+	font-size:15px;
 	font-style:italic;
-	line-height:22px;
+	line-height:20px;
 }
 .post p {
-	padding-top:10px;
+	padding-top:20px;
 }
 .post p a {
 	color:#4c4c4c;
