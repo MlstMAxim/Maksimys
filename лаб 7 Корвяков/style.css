@@ -1,0 +1,205 @@
+body, p, h1, h2, ul{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #EBEBEB;
+}
+.wrapper
+{
+	background-color: aliceblue ;
+}
+.menu, .wrapper, .footer-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+	.header
+	{
+		background-color: pink;
+        height: 125px; 
+	}
+    .footer
+    {
+		background-color:red ;
+        height: 100px; 
+    }
+	.menu ul
+	{
+		padding-left: 0px;
+		font-size: 0px;
+	}
+	.menu li
+	{
+        margin-top: 45px;
+        padding-left: 20px ;
+        float: right;
+		display: inline-block;
+		line-height: 50px;
+		
+	}
+	
+	.menu a
+	{
+		display: block; 
+		padding: 0px 20px;
+		font-size: 19px;
+        background-color: pink;
+	}
+	.menu a:link, .menu a:visited
+	{
+		color: white;
+		text-decoration: none;
+	}
+	.menu a:hover
+	{
+		background-color: palevioletred;
+	}
+    .p1
+    {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        margin: 52.5px;
+        background: #FF0000;
+        transform: matrix(-0.71, -0.74, 0.67, -0.71, 0, 0);
+        z-index: 2;
+    }
+    .p2
+    {
+        border-radius: 50%;
+        position: absolute;
+        width: 60px;
+        height: 62px;
+        background: #000000;
+        z-index: 1;
+        margin: 38px;
+    }
+#right
+{
+	float: right;
+}
+#left
+{
+	float: left;
+}
+#right,#left
+{
+	width: 250px;
+}
+.sidebar>nav
+{
+ 	margin: 20px 20px 0px 20px;
+}
+	.sidebar h2
+	{
+		font-size: 17px;
+		margin-bottom: 10px;
+	}
+	.sidebar p, .sidebar li
+	{
+		font-size: 13px;
+		text-align: justify;
+		margin-bottom: 10px;
+	}
+	.sidebar ul
+	{
+		list-style-type: none
+	}
+
+	
+
+
+
+.content {
+	margin: 0px 250px;
+	min-height: 650px;
+	padding: 20px 0px;
+	text-align: justify;
+	background-color: aliceblue;	
+}
+.content nav
+{
+	margin-top: 25px;
+}
+
+	.content h1
+	{
+		font-size: 21px;
+	}
+	.content h2
+	{
+		font-size: 19px;
+		margin-top: 20px;
+	}
+	.content p
+	{
+		margin: 10px 0px;
+	}
+	.content img, .sidebar img
+	{
+		width: 100%;
+	}
+	
+	
+	
+.footer {
+	padding-top: 30px;
+	padding-bottom: 5px;
+	font-size: 13px;
+	text-align: center;
+	color: red;
+	
+}
+
+.footer-menu > nav{
+	float: left;
+    margin-left: 250px;
+    text-align: center;
+}
+.im1
+{
+	list-style: none;
+    position: absolute;
+    width: 170px;
+    height: 150px;
+}
+.titl
+{
+	font-size: 25px;
+	list-style: none;
+	color: yellow;
+}
+.a1
+{
+	text-decoration: none;
+	color: yellow;
+}
+.im1 li{
+	margin-top: 25px;
+}
+.content,.sidebar,.wrapper
+{
+	background-color: violet;
+}
+	
+	.footer-menu > nav{
+		float: left;
+		width: 24%;
+		min-height: 100px;
+		margin-right: 1.3333%;
+		background-color: red;
+		
+		color: whitesmoke;
+	}
+	.footer-menu nav.last
+	{
+		margin-right: 0;
+	}
+	.footer-menu p
+	{
+		margin-bottom: 3px;
+	}
+	.copyright
+	{
+		margin-top: 30px;
+	}

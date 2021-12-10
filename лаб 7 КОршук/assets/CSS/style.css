@@ -1,0 +1,449 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-size: 1.2em;
+	background-color: #fff;
+	color: #555;
+}
+ 
+hr {
+	width: 600px;
+	margin-top: 15px;	
+}
+
+p {
+	padding: 0 0 20px 0;
+	line-height: 1.7em;
+}
+
+input[type="text"], input[type="password"], input[type="search"] {
+	color: #5d5d5d;
+	padding: 8px;
+}
+
+input, textarea {
+	outline: none;
+	border: none;
+	border: solid 1px #f2f2f2;
+}
+
+h1, h2 {
+	font: normal 170% 'sentry gothic', arial;
+	margin:0 0 15px 0;
+	padding: 15px 0 5px 0;
+	color: #000;
+}
+
+h2 {
+	font-size: 140%;
+}
+a, a:hover {
+	outline: none;
+	text-decoration: underline;
+	color: #aeb002;
+}
+
+ul {
+	margin: 2px 0 22px 17px;
+}
+
+ul li {
+	margin: 0 0 6px 0;
+	padding: 0 0 4px 5px;
+	line-height: 1.5em;
+}
+
+.header{
+	background-color: black;
+	height: 120px;
+	 font-size: 0.8em;
+	 margin-left: 0px;
+	 margin-right: 0px;
+	 min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_content, .footer {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.logo {
+	width: 20px;
+	padding-bottom: 40px;
+	padding-left: 200px;
+	float: left;
+}
+
+.logo h1, .logo h2 {
+	font: normal 300% 'century gothic', arial, sans-serif;
+	margin: 0 0 0 9px;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+	padding: 22px 0 0 0;
+	color: #fff;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+}
+
+.logo_text h2 {
+	font-size: 0.9em;
+	padding: 4px 0 0 0;
+	color: #999;
+}
+#navigation {
+	float:right;
+	display:inline;
+	padding-right: 200px;
+	padding-top:30px;
+}
+#navigation ul {
+	list-style:none outside none;
+}
+#navigation ul li {
+	float:left;
+	display:inline;
+	padding-right:7px;
+}
+#navigation ul li a, #navigation ul li a span {
+	float:left;
+	display:inline;
+	height:34px;
+	font-weight:bold;
+	font-style:italic;
+	font-size:22px;
+	color:#fff;
+	line-height:33px;
+	padding-left:15px;
+	padding-top:10px;
+	padding-right: 20px;
+}
+#navigation ul li a span {
+	padding:0 15px 0 0;
+}
+#navigation ul li a:hover, #navigation ul li a.active, #navigation ul li a:hover span, #navigation ul li a.active span {
+	background:url(images/nav-hover.gif) no-repeat 0 0;
+	color:#a6a6a6;
+}
+#navigation ul li a:hover span, #navigation ul li a.active span {
+	background-position:right 0;
+}
+.menubar {
+	width: 900px;
+	height: 46px;
+}
+
+ul.menu {
+	float: right;
+}
+ul.menu li {
+	float: left;
+	padding: 0 0 0 9px;
+	list-style: none; 
+	margin:1px 2px 0 0;
+}
+
+ul.menu li a {
+	font: normal 100% 'trebuchet ms', sans-serif;
+	display: block;
+	height: 20px;
+	padding: 6px 35px 5px 28px;
+	color:#fff;
+	text-decoration: none;
+}
+ul.menu li.selected a {
+	color: #6cb6ce;
+}
+
+ul.menu li a:hover {
+	color: #6cb6ce;
+}
+
+.site_content {
+ width: 880px;
+ overflow: hidden;
+ margin: 20px auto 0 auto;
+ background-color: white;
+} 
+
+.sitebar_container {
+	float:right;
+	width: 222px;
+}
+
+.sidebar {
+	float: right;
+	width: 240px;
+	padding: 5%;
+	margin: 0 0 18px 0;
+}
+
+.btn {
+	padding: 8px;
+	background-color: white;
+	cursor:pointer;
+}
+
+.sidebar h2 {
+	color: black ;
+}
+.sidebar a {
+	color: black ;
+	text-decoration: none;
+
+}
+
+.lables_passreg_text {
+	font-size: 0.7em;
+	margin-left: 2%;
+	margin-top: 3%;
+}
+
+.sidebar ul {
+	margin: 0;
+}
+
+.sidebar ul li {
+	list-style-type: none;
+	margin: 0 0 0 0;
+}
+
+.sidebar .reting_sidebar {
+	float:right;
+}
+
+.content {
+	text-align: left;
+	width: 620px;
+	padding: 0 0 0 5px;
+	float: left;
+}
+
+.content a {
+	text-decoration: none;
+}
+
+.film_block {
+	margin-bottom: 5%;
+}
+
+.film_block img {
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+	width: 22%;
+}
+.info_film_page {
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+
+.info_film_page .label {
+ font-size: 1.2em;
+}
+
+.info_film_page .value {
+ font-size: 1em;
+ color: #49945a;
+ margin-right: 3%;
+
+}
+
+.reviews {
+	margin-bottom: 4%;
+	font-size: 0.9em;
+}
+
+.reviews .review_name {
+ background-color: #7268ad;
+ color: white;
+ padding: 1%;	
+ width: 590px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+}
+
+.reviews .review_text {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+}
+
+.send {
+	margin-bottom: 4%;
+}
+
+.send input[type="text"], textarea {
+	border: solid 1px #c3c3c3;
+	margin-bottom: 2%; 
+}
+
+.send input[type="text"] {
+	width: 98%;
+}
+
+.send textarea {
+	width: 608px;
+	height: 200px;
+}
+
+.send input[type="submit"], .send_contact input[type="submit"] {
+	background-color: black;
+	padding: 3%;
+	color: white;
+	border-radius: 5px;
+}
+
+.send input[type="submit"]:hover, .send_contact input[type="submit"]:hover {
+	color: #6cb6ce;
+}
+ 
+ .send_contact input[type="text"] {
+  width: 500px;
+  margin-bottom: 10px; 
+}
+
+.send_contact textarea {
+  width: 516px;
+  height: 300px;
+}
+
+
+.info_film{
+	margin-bottom: 5%;
+	padding: 5%;
+	height: 270px;
+}
+
+
+.info_film img {
+float: left;
+margin-right: 2%;
+width: 25%;
+}
+
+.button {
+	background-color: black;
+	padding: 2%;
+	color: white;
+	border-radius: 5px;
+	float:right;
+	margin-top: 5%;
+	clear: both;
+	font-size: 0.8em;
+}
+
+.button a {
+	color:white;
+}
+
+.button a:hover {
+	color:#6cb6c;
+}
+
+table {
+	width: 95%;
+	border: solid 1px #f4f4f4;
+}
+td {
+	padding: 2%;
+	border: solid 1px #f4f4f4;
+}
+
+td img {
+	width: 60px;
+	vertical-align: middle;
+}
+
+.center{
+	text-align: center;
+}
+
+.footer{
+
+	margin:0 0 1em; text-align: left;
+	width: 100%;
+	height: 345px;
+	text-align: center;
+	background-color: black;
+	color: #fff;
+}
+
+#footer2 {
+width: 25%; float: left;
+padding-left: 40px;
+}
+
+#footer3 {
+width: 33%; float: left;
+padding-left: 80px;
+}
+
+#footer4 {
+width: 27%; float: right;
+padding-right: 30px;
+}
+
+.footer a {
+	color: #fff;
+	text-decoration: none; 
+}
+
+.footer a:hover {
+	color: #6cb6ce;
+	text-decoration: none;
+}
+
+.footer p {
+	padding: 0, 0, 0px, 0;
+}
+
+.footer h1 {
+	padding-right: 200px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+
+
+.content_info {
+	 
+	padding-bottom: 30px; 
+	font-size: 0.8em;
+	width: 600px;
+
+}
+.content_info a {
+   font-size: 120%;
+   text-decoration: none;
+}
+
+.description_film {
+	margin-bottom: 15%;
+	width: 600px;
+
+}
+
+.description_film img {
+	float: left;
+	margin-right: 2%;
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+}
+.footer-nav{
+	padding:35px; 
+}
+.footer-nav ul.list { 
+	list-style:none; 
+	}
+.pages{
+	padding-top: 10px;
+	list-style-type: none;
+}
+h4{
+	padding-left: 14px;
+}
+ .footer-nav ul.list li { padding:5px 0px;}
+ .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+ .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
